@@ -13,9 +13,17 @@ export default function ClientCard({ data }) {
       <p className="text-sm text-gray-700 mb-2">
         Conditions: {data.conditions.join(', ')}
       </p>
+
       <RiskAlerts data={data} />
-      <MoodChart logs={data.mood_logs} />
-      <ScoreChart phq9={data.phq9_scores} gad7={data.gad7_scores} />
+
+      <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex-1">
+          <MoodChart logs={data.mood_logs} />
+        </div>
+        <div className="flex-1">
+          <ScoreChart phq9={data.phq9_scores} gad7={data.gad7_scores} />
+        </div>
+      </div>
     </div>
   );
 }
