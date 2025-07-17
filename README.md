@@ -25,7 +25,7 @@ Mental health clinicians need quick, clear access to patient progress—without 
 | Principle              | How It’s Addressed                                  |
 | ---------------------- | --------------------------------------------------- |
 | No PII                 | Uses de-identified, synthetic data only             |
-| Role-Based Access      | Optional login simulation with therapist ID         |
+| Role-Based Access      | Login simulation with therapist ID                  |
 | Minimum Necessary Info | Only essential health indicators and trends shown   |
 | Security Banner        | “Demo only” disclaimer in UI and docs               |
 | Future Proofing        | Code designed to support backend auth or encryption |
