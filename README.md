@@ -11,6 +11,7 @@ A clinician-facing web dashboard that visualizes anonymized client mental health
 - **HIPAA-awareness by design** (no PII, secure design notes, mock role access)
 - **Modular component structure** using React + Tailwind CSS
 - Uses **realistic synthetic patient data** (JSON-based)
+- **Emotion Analysis Backend** using NLP (Natural Language Processing) to detect emotional tone in therapist notes. Read more in the [Backend README](https://github.com/marinspira/mental-health-insights-dashboard/blob/main/backend/README.md)
 
 ---
 

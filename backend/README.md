@@ -28,7 +28,7 @@ This project uses a **Hugging Face Transformer model** to analyze therapists' se
 | Package | Purpose |
 |--------|---------|
 | `transformers==4.41.1` | Hugging Face's Transformers library. It provides pre-trained NLP models `SamLowe/roberta-base-go_emotions` used for emotion classification. |
-| `torch==2.6.0` | PyTorch is the deep learning engine that runs the transformer models efficiently. It supports tensor computation and model inference. |
+| `torch==2.6.0` | PyTorch is the deep learning engine that runs the transformer models efficiently. It supports tensor computation (Math operations performed on tensors (e.g, multi-dimensional arrays)) and model inference (the act running a trained model on new input to get a prediction). |
 | `safetensors==0.4.3` | Secure and fast format for storing and loading pre-trained model weights. Recommended over `.bin` for safety and performance. |
 
 ### Numeric Computation
