@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Mental Health Insights Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clinician-facing web dashboard that visualizes anonymized client mental health data (mood trends, PHQ-9, GAD-7 scores, and attendance) with simulated HIPAA-aware design principles. Built as a personal project to demonstrate applied skills in healthcare technology, data visualization, and secure design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Mood & symptom trend visualization** 
+- **Risk alert system** for sudden changes or missed sessions
+- **HIPAA-awareness by design** (no PII, secure design notes, mock role access)
+- **Modular component structure** using React + Tailwind CSS
+- Uses **realistic synthetic patient data** (JSON-based)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Why This Project?
 
-### `npm test`
+Mental health clinicians need quick, clear access to patient progress—without compromising privacy. This dashboard simulates a real-world tool that could be integrated into healthcare platforms, combining thoughtful UX, smart alerts, and HIPAA-aware architecture.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## HIPAA Awareness
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Principle              | How It’s Addressed                                  |
+| ---------------------- | --------------------------------------------------- |
+| No PII                 | Uses de-identified, synthetic data only             |
+| Role-Based Access      | Optional login simulation with therapist ID         |
+| Minimum Necessary Info | Only essential health indicators and trends shown   |
+| Security Banner        | “Demo only” disclaimer in UI and docs               |
+| Future Proofing        | Code designed to support backend auth or encryption |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+--- 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About PHQ-9 and GAD-7 Scores
 
-### `npm run eject`
+### PHQ-9 (Patient Health Questionnaire-9)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **What:** A 9-question self-report tool used to screen for and measure the severity of **depression**.
+- **Why:** Helps clinicians assess how severe a person’s depressive symptoms are, track changes over time, and guide treatment decisions.
+- **How it works:** Each of the 9 items is scored 0–3 based on how often symptoms occurred in the last 2 weeks.
+- **Score range:** 0 to 27  
+  - 0–4: Minimal depression  
+  - 5–9: Mild depression  
+  - 10–14: Moderate depression  
+  - 15–19: Moderately severe depression  
+  - 20–27: Severe depression
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### GAD-7 (Generalized Anxiety Disorder-7)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **What:** A 7-item self-report scale that screens for and assesses severity of **generalized anxiety disorder (GAD)**.
+- **Why:** It provides clinicians a quick measure to evaluate anxiety levels and monitor treatment response.
+- **How it works:** Each item is scored 0–3 based on frequency of symptoms over the last 2 weeks.
+- **Score range:** 0 to 21  
+  - 0–4: Minimal anxiety  
+  - 5–9: Mild anxiety  
+  - 10–14: Moderate anxiety  
+  - 15–21: Severe anxiety
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Future Improvements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Real authentication (JWT or OAuth)
+- API backend (Node + MongoDB)
+- Exportable clinician reports
+- Data filtering by diagnosis, score range
+- Accessibility audit (WCAG)

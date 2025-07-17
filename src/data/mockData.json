@@ -1,0 +1,26 @@
+[
+  {
+    "client_id": "CL-5012",
+    "therapist_id": "TH-2091",
+    "age_range": "25-34",
+    "gender": "Female",
+    "conditions": ["Anxiety", "Insomnia"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 4},
+      {"date": "2025-07-02", "mood": 3},
+      {"date": "2025-07-03", "mood": 2},
+      {"date": "2025-07-04", "mood": 1},
+      {"date": "2025-07-05", "mood": 2}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-15", "score": 17},
+      {"date": "2025-07-01", "score": 13}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-20", "score": 14},
+      {"date": "2025-07-05", "score": 9}
+    ],
+    "missed_sessions": 1,
+    "total_sessions": 5
+  }
+]
