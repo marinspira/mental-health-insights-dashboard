@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mental-health-insights-dashboard/static/css/main.2b36ebf5.css",
-    "main.js": "/mental-health-insights-dashboard/static/js/main.66877587.js",
+    "main.js": "/mental-health-insights-dashboard/static/js/main.41feb349.js",
     "static/js/453.901f0bc4.chunk.js": "/mental-health-insights-dashboard/static/js/453.901f0bc4.chunk.js",
     "index.html": "/mental-health-insights-dashboard/index.html",
     "main.2b36ebf5.css.map": "/mental-health-insights-dashboard/static/css/main.2b36ebf5.css.map",
-    "main.66877587.js.map": "/mental-health-insights-dashboard/static/js/main.66877587.js.map",
+    "main.41feb349.js.map": "/mental-health-insights-dashboard/static/js/main.41feb349.js.map",
     "453.901f0bc4.chunk.js.map": "/mental-health-insights-dashboard/static/js/453.901f0bc4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b36ebf5.css",
-    "static/js/main.66877587.js"
+    "static/js/main.41feb349.js"
   ]
 }
