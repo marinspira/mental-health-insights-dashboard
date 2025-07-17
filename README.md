@@ -61,7 +61,7 @@ Mental health clinicians need quick, clear access to patient progress—without 
 
 ## Future Improvements
 
-- Real authentication (JWT or OAuth)
+- Real authentication (probably JWT or OAuth)
 - API backend (Node + MongoDB)
 - Exportable clinician reports
 - Data filtering by diagnosis, score range
