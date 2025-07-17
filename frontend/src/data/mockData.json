@@ -1,0 +1,170 @@
+[
+  {
+    "client_id": "CL-5012",
+    "therapist_id": "TH-2091",
+    "age_range": "25-34",
+    "gender": "Female",
+    "conditions": ["Anxiety", "Insomnia"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 4},
+      {"date": "2025-07-02", "mood": 3},
+      {"date": "2025-07-03", "mood": 2},
+      {"date": "2025-07-04", "mood": 1},
+      {"date": "2025-07-05", "mood": 2}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-15", "score": 17},
+      {"date": "2025-07-01", "score": 13}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-20", "score": 14},
+      {"date": "2025-07-05", "score": 9}
+    ],
+    "missed_sessions": 1,
+    "total_sessions": 5
+  },
+  {
+    "client_id": "CL-5023",
+    "therapist_id": "TH-2091",
+    "age_range": "35-44",
+    "gender": "Male",
+    "conditions": ["Depression"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 5},
+      {"date": "2025-07-02", "mood": 5},
+      {"date": "2025-07-03", "mood": 4},
+      {"date": "2025-07-04", "mood": 4},
+      {"date": "2025-07-05", "mood": 5}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-10", "score": 9},
+      {"date": "2025-07-01", "score": 7}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-10", "score": 6},
+      {"date": "2025-07-01", "score": 5}
+    ],
+    "missed_sessions": 0,
+    "total_sessions": 6
+  },
+  {
+    "client_id": "CL-5034",
+    "therapist_id": "TH-2092",
+    "age_range": "18-24",
+    "gender": "Non-binary",
+    "conditions": ["PTSD", "Anxiety"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 3},
+      {"date": "2025-07-02", "mood": 2},
+      {"date": "2025-07-03", "mood": 3},
+      {"date": "2025-07-04", "mood": 2},
+      {"date": "2025-07-05", "mood": 3}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-15", "score": 14},
+      {"date": "2025-07-01", "score": 12}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-20", "score": 15},
+      {"date": "2025-07-05", "score": 13}
+    ],
+    "missed_sessions": 2,
+    "total_sessions": 7
+  },
+  {
+    "client_id": "CL-5045",
+    "therapist_id": "TH-2093",
+    "age_range": "45-54",
+    "gender": "Female",
+    "conditions": ["Bipolar Disorder"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 3},
+      {"date": "2025-07-02", "mood": 5},
+      {"date": "2025-07-03", "mood": 5},
+      {"date": "2025-07-04", "mood": 4},
+      {"date": "2025-07-05", "mood": 4}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-10", "score": 11},
+      {"date": "2025-07-01", "score": 10}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-15", "score": 8},
+      {"date": "2025-07-05", "score": 7}
+    ],
+    "missed_sessions": 1,
+    "total_sessions": 4
+  },
+  {
+    "client_id": "CL-5056",
+    "therapist_id": "TH-2094",
+    "age_range": "55-64",
+    "gender": "Male",
+    "conditions": ["Depression", "Chronic Pain"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 2},
+      {"date": "2025-07-02", "mood": 2},
+      {"date": "2025-07-03", "mood": 1},
+      {"date": "2025-07-04", "mood": 1},
+      {"date": "2025-07-05", "mood": 2}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-20", "score": 18},
+      {"date": "2025-07-01", "score": 16}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-25", "score": 12},
+      {"date": "2025-07-05", "score": 11}
+    ],
+    "missed_sessions": 3,
+    "total_sessions": 8
+  },
+  {
+    "client_id": "CL-5067",
+    "therapist_id": "TH-2092",
+    "age_range": "35-44",
+    "gender": "Female",
+    "conditions": ["Anxiety", "Depression"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 3},
+      {"date": "2025-07-02", "mood": 3},
+      {"date": "2025-07-03", "mood": 4},
+      {"date": "2025-07-04", "mood": 5},
+      {"date": "2025-07-05", "mood": 4}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-15", "score": 12},
+      {"date": "2025-07-01", "score": 11}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-20", "score": 13},
+      {"date": "2025-07-05", "score": 10}
+    ],
+    "missed_sessions": 0,
+    "total_sessions": 5
+  },
+  {
+    "client_id": "CL-5078",
+    "therapist_id": "TH-2093",
+    "age_range": "18-24",
+    "gender": "Male",
+    "conditions": ["PTSD"],
+    "mood_logs": [
+      {"date": "2025-07-01", "mood": 2},
+      {"date": "2025-07-02", "mood": 1},
+      {"date": "2025-07-03", "mood": 2},
+      {"date": "2025-07-04", "mood": 2},
+      {"date": "2025-07-05", "mood": 3}
+    ],
+    "phq9_scores": [
+      {"date": "2025-06-10", "score": 15},
+      {"date": "2025-07-01", "score": 14}
+    ],
+    "gad7_scores": [
+      {"date": "2025-06-15", "score": 16},
+      {"date": "2025-07-05", "score": 15}
+    ],
+    "missed_sessions": 2,
+    "total_sessions": 6
+  }
+]
