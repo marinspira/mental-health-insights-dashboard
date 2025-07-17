@@ -1,0 +1,11 @@
+# Backend web server
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# Hugging Face Transformers and dependencies
+transformers==4.41.1
+torch==2.6.0
+safetensors==0.4.3
+
+# Ensure NumPy compatibility with PyTorch/Transformers
+numpy==1.26.4
