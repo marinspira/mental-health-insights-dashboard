@@ -4,6 +4,11 @@ A clinician-facing web dashboard that visualizes anonymized client mental health
 
 ---
 
+![Dashboard View](./screenshots/dashboard.png)
+_The main dashboard view, showing client overviews, risk alerts, and trend charts._
+
+---
+
 ## Features
 
 - **Mood & symptom trend visualization** 
@@ -12,6 +17,11 @@ A clinician-facing web dashboard that visualizes anonymized client mental health
 - **Modular component structure** using React + Tailwind CSS
 - Uses **realistic synthetic patient data** (JSON-based)
 - **Emotion Analysis Backend** using NLP (Natural Language Processing) to detect emotional tone in therapist notes. Read more in the [Backend README](https://github.com/marinspira/mental-health-insights-dashboard/blob/main/backend/README.md)
+
+---
+
+![NLP Analysis View](./screenshots/NLP.png)
+_The emotion analysis modal, which uses NLP to extract sentiment from clinical notes._
 
 ---
 
