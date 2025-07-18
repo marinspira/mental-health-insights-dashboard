@@ -41,7 +41,7 @@ export default function EmotionAnalyzer() {
   };
 
   return (
-    <div className="p-4 max-w-xl mx-auto space-y-4">
+    <div className="p-4 max-w-xl space-y-4">
       <h2 className="text-xl font-bold">Therapist Session</h2>
 
       {!currentSessionSaved && (

@@ -23,15 +23,33 @@ export default function ClientCard({ data }) {
         Conditions: {data.conditions.join(', ')}
       </p>
 
-      <EmotionAnalyzer />
+      <RiskAlerts data={data} />
 
-      <Button label="PHQ-9 Questionnaire" onClick={() => setShowPHQ(true)} />
-      <Button label="GAD-7 Questionnaire" onClick={() => setShowGAD(true)} />
+      <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex-1">
+          {/* <MoodChart logs={data.mood_logs} /> */}
+        </div>
+        <div className="flex-1">
+          <ScoreChart phq9={data.phq9_scores} gad7={data.gad7_scores} />
+        </div>
+      </div>
+
+      <div className="flex w-full items-center justify-between gap-3">
+        <div className="flex-1 items-start">
+          <EmotionAnalyzer />
+        </div>
+
+        <div className="flex flex-col gap-4 items-center justify-center">
+          <Button label="PHQ-9 Questionnaire" onClick={() => setShowPHQ(true)} />
+          <Button label="GAD-7 Questionnaire" onClick={() => setShowGAD(true)} />
+        </div>
+      </div>
+
       <Modal isOpen={showPHQ} onClose={() => setShowPHQ(false)}>
         <QuestionnaireForm
           title="PHQ-9 Questionnaire"
           questions={PHQ_QUESTIONS}
-          onSubmit={(data) => { console.log(data) }}
+          onSubmit={(data) => console.log(data)}
           onClose={() => setShowPHQ(false)}
         />
       </Modal>
@@ -40,21 +58,11 @@ export default function ClientCard({ data }) {
         <QuestionnaireForm
           title="GAD-7 Questionnaire"
           questions={GAD_QUESTIONS}
-          onSubmit={(data) => { console.log(data) }}
+          onSubmit={(data) => console.log(data)}
           onClose={() => setShowGAD(false)}
         />
       </Modal>
 
-      <RiskAlerts data={data} />
-
-      <div className="flex flex-col lg:flex-row gap-4">
-        <div className="flex-1">
-          <MoodChart logs={data.mood_logs} />
-        </div>
-        <div className="flex-1">
-          <ScoreChart phq9={data.phq9_scores} gad7={data.gad7_scores} />
-        </div>
-      </div>
     </div>
   );
 }
