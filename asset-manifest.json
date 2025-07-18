@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mental-health-insights-dashboard/static/css/main.397bc51b.css",
-    "main.js": "/mental-health-insights-dashboard/static/js/main.2b5877de.js",
+    "main.css": "/mental-health-insights-dashboard/static/css/main.286a0a01.css",
+    "main.js": "/mental-health-insights-dashboard/static/js/main.6adcbc54.js",
     "static/js/453.901f0bc4.chunk.js": "/mental-health-insights-dashboard/static/js/453.901f0bc4.chunk.js",
     "index.html": "/mental-health-insights-dashboard/index.html",
-    "main.397bc51b.css.map": "/mental-health-insights-dashboard/static/css/main.397bc51b.css.map",
-    "main.2b5877de.js.map": "/mental-health-insights-dashboard/static/js/main.2b5877de.js.map",
+    "main.286a0a01.css.map": "/mental-health-insights-dashboard/static/css/main.286a0a01.css.map",
+    "main.6adcbc54.js.map": "/mental-health-insights-dashboard/static/js/main.6adcbc54.js.map",
     "453.901f0bc4.chunk.js.map": "/mental-health-insights-dashboard/static/js/453.901f0bc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.397bc51b.css",
-    "static/js/main.2b5877de.js"
+    "static/css/main.286a0a01.css",
+    "static/js/main.6adcbc54.js"
   ]
 }
