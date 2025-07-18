@@ -43,33 +43,6 @@ Mental health clinicians need quick, clear access to patient progress—without 
 
 --- 
 
-## About PHQ-9 and GAD-7 Scores
-
-### PHQ-9 (Patient Health Questionnaire-9)
-
-- **What:** A 9-question self-report tool used to screen for and measure the severity of **depression**.
-- **Why:** Helps clinicians assess how severe a person’s depressive symptoms are, track changes over time, and guide treatment decisions.
-- **How it works:** Each of the 9 items is scored 0–3 based on how often symptoms occurred in the last 2 weeks.
-- **Score range:** 0 to 27  
-  - 0–4: Minimal depression  
-  - 5–9: Mild depression  
-  - 10–14: Moderate depression  
-  - 15–19: Moderately severe depression  
-  - 20–27: Severe depression
-
-### GAD-7 (Generalized Anxiety Disorder-7)
-
-- **What:** A 7-item self-report scale that screens for and assesses severity of **generalized anxiety disorder (GAD)**.
-- **Why:** It provides clinicians a quick measure to evaluate anxiety levels and monitor treatment response.
-- **How it works:** Each item is scored 0–3 based on frequency of symptoms over the last 2 weeks.
-- **Score range:** 0 to 21  
-  - 0–4: Minimal anxiety  
-  - 5–9: Mild anxiety  
-  - 10–14: Moderate anxiety  
-  - 15–21: Severe anxiety
-
----
-
 ## Future Improvements
 
 - Real authentication (probably JWT or OAuth)
