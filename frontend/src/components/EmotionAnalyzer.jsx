@@ -30,7 +30,6 @@ export default function EmotionAnalyzer() {
       },
     ]);
 
-    // Lock session
     setCurrentSessionSaved(true);
   };
 

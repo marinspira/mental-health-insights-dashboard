@@ -25,13 +25,8 @@ export default function ClientCard({ data }) {
 
       <RiskAlerts data={data} />
 
-      <div className="flex flex-col lg:flex-row gap-4">
-        <div className="flex-1">
-          {/* <MoodChart logs={data.mood_logs} /> */}
-        </div>
-        <div className="flex-1">
-          <ScoreChart phq9={data.phq9_scores} gad7={data.gad7_scores} />
-        </div>
+      <div className="flex-1 my-10">
+        <ScoreChart phq9={data.phq9_scores} gad7={data.gad7_scores} />
       </div>
 
       <div className="flex w-full items-center justify-between gap-3">
